@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{2F44E0C0-089B-4C55-A904-2846048E13BC}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{A4FC77D0-AAF4-4CD0-A20C-0145AB410C9C}">
+			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="Orders.exe" filePath="D:\TestComplete 14 Samples\Desktop\Orders\C#\bin\Release\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{98E7950F-2E83-467D-9511-04C17BAE4925}">
+			<config nodeName="Orders1" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="C:\Users\ADMIN\Desktop" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="C:\Users\ADMIN\Desktop" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="C:\Users\ADMIN\Desktop" />
+					<param name="Simple" fileName="Orders.exe" filePath="C:\Users\ADMIN\Desktop\" parameters="" workFolder="C:\Users\ADMIN\Desktop" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

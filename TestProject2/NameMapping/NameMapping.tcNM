@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{07BB8AA9-1E2C-444D-B29C-85536B15077B}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{CA3E6709-9291-4633-963C-3B80E6CB9CF5}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{9A28B05E-018D-472C-AA9B-EC2291190983}">
+								<Image FileName="1853529244" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSoftwareTestingMonitoringDev" Key="{73DC22A2-77A6-4D88-8734-0A264FD1FC43}">
+								<Image FileName="-420796444" Left="0" Top="71" Right="1366" Bottom="728" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{75745E50-E4D8-4F05-AFD5-D668B5D3E93A}">
+										<Image FileName="-420796444" Left="0" Top="71" Right="1349" Bottom="7333" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerPLtHeader" Key="{7EB1BA76-B447-4AC1-A912-1F6413FD1CAD}">
+										<Image FileName="-420796444" Left="0" Top="71" Right="0" Bottom="71" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_Header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSolutions" Key="{55FE5BEE-0CD1-40B5-AC67-70D0AC95A109}">
+										<Image FileName="-420796444" Left="521" Top="71" Right="644" Bottom="136" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Solutions&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSolutions" Key="{2B078D3B-39BA-4EDF-A11C-6C9DB1B1F7D6}">
+										<Image FileName="-420796444" Left="538" Top="71" Right="626" Bottom="136" />
+										<TypeInfo Item0="{3D18FBDC-325B-41CB-83DF-A3B721CB8687}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Solutions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li[2]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkApiTesting" Key="{73D86B9B-A077-41AE-A4BB-5DD28039D108}">
+										<Image FileName="-1185951318" Left="422" Top="290" Right="659" Bottom="325" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;API Testing&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApiTesting" Key="{80F43C04-EFA9-4B37-896F-6317F3139C9D}">
+										<Image FileName="-1185951318" Left="452" Top="290" Right="659" Bottom="325" />
+										<TypeInfo Item0="{3D18FBDC-325B-41CB-83DF-A3B721CB8687}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;API Testing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//div[2]/a[3]/span[contains(@class, &apos;item-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;API-testing&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]//div[2]/a[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Orders" Key="{379508B8-3BBD-4E16-BF91-E8A407B80453}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Orders" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainForm" Key="{20E991ED-E808-4009-8E3B-32C1D4075C6C}">
+								<Image FileName="1193082464" Left="0" Top="0" Right="608" Bottom="408" />
+								<TypeInfo Item0="{D0CF3350-629A-4EE0-9346-4E5DAD4693BB}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="MainForm" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="dlgWarning" Key="{B370F21C-4A9D-4540-9E12-7A04BF40566F}">
+								<Image FileName="-235709328" Left="0" Top="0" Right="254" Bottom="149" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Warning" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{9CFE0915-F7C4-4BCB-9FC5-E1E436290A16}">
+										<Image FileName="-235709328" Left="161" Top="114" Right="236" Bottom="137" />
+										<TypeInfo Item0="{F43D5880-3F3B-43DE-84BA-0ABCE7A13FA4}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{CA3E6709-9291-4633-963C-3B80E6CB9CF5}">
+			<Child Name="BrowserWindow" Owner="{9A28B05E-018D-472C-AA9B-EC2291190983}" />
+			<Child Name="pageSoftwareTestingMonitoringDev" Owner="{73DC22A2-77A6-4D88-8734-0A264FD1FC43}">
+				<Child Name="form" Owner="{75745E50-E4D8-4F05-AFD5-D668B5D3E93A}">
+					<Child Name="headerPLtHeader" Owner="{7EB1BA76-B447-4AC1-A912-1F6413FD1CAD}">
+						<Child Name="textnodeSolutions" Owner="{55FE5BEE-0CD1-40B5-AC67-70D0AC95A109}">
+							<Child Name="linkSolutions" Owner="{2B078D3B-39BA-4EDF-A11C-6C9DB1B1F7D6}" />
+						</Child>
+						<Child Name="linkApiTesting" Owner="{73D86B9B-A077-41AE-A4BB-5DD28039D108}">
+							<Child Name="textnodeApiTesting" Owner="{80F43C04-EFA9-4B37-896F-6317F3139C9D}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="Orders" Owner="{379508B8-3BBD-4E16-BF91-E8A407B80453}">
+			<Child Name="MainForm" Owner="{20E991ED-E808-4009-8E3B-32C1D4075C6C}" />
+			<Child Name="dlgWarning" Owner="{B370F21C-4A9D-4540-9E12-7A04BF40566F}">
+				<Child Name="btnOK" Owner="{9CFE0915-F7C4-4BCB-9FC5-E1E436290A16}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
